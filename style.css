@@ -1,0 +1,38 @@
+html {
+  font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url('Pic.jpg');
+  background-size: cover;
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 500px;
+  height: 20px;
+  font-size: 20px;
+  text-align:center;
+  border: 0;
+}
+
+input:focus {
+outline: none;
+}
+
+li{
+  text-align: left;
+  font-size: 20px;
+  list-style: square;
+  margin: 0;
+}
+
+li:hover {
+  text-decoration: line-through;
+
+}
+
